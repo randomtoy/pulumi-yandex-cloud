@@ -1,0 +1,12 @@
+config:
+  yandex:cloud_id: <some cloud id>
+  yandex:folder_id: <some folder id>
+  yandex:service_account_key_file: ../../../key.json
+  serviceaccount:
+    name: "service"
+    description: "super desc"
+    roles:
+      - "editor"
+  yandex:
+    CloudId: <some cloud id>
+    FolderId: <some folder id>

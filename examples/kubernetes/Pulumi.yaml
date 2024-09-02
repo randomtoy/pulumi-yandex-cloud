@@ -1,0 +1,8 @@
+name: pulumi-yandex-cloud
+runtime: go
+description: small example for Ya.Cloud
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: go
+yandex.serviceAccountKeyFile: "../key.json"
